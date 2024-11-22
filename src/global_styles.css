@@ -11,7 +11,7 @@ body {
 .card-container {
   perspective: 1000px;
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   aspect-ratio: 3/4;
   margin: 2rem auto;
 }
@@ -79,10 +79,4 @@ body {
 
 .nav-menu a:hover {
   color: #ddd;
-}
-
-@media (max-width: 500px) {
-  .card-container {
-    max-width: 100% !important;
-  }
 }
