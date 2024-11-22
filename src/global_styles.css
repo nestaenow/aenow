@@ -81,22 +81,8 @@ body {
   color: #ddd;
 }
 
-/* img {
-  width: 100%; 
-  height: 100%;
-  object-fit: cover;
-} */
-
-@media (min-width: 751px) {
-  img {
-    width: 100%; 
-    height: 100%;
-  }
-} 
-
-@media (max-width: 750px) {
-  img {
-    width: 150% !important; /* Adjust for mobile (smaller screens) */
-    height: 150% !important;
+@media (max-width: 500px) {
+  .card-container {
+    max-width: 100% !important;
   }
 }
